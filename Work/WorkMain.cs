@@ -5,10 +5,20 @@ class WorkMain
 {
     static void Main()
     {
+        Random rnd=new Random();
+        int[] nums=new int[6];
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            nums[i] = rnd.Next(1, 10);
+        }
+
+        Console.Write(string.Join(",",nums));
+        Console.WriteLine();
+
         string txt = "       luck  ";
         DateTime now=DateTime.Now;
         Console.WriteLine(txt.Trim().ToUpper());
-
 
         now.AddYears(5);
         Car myCar=new Car();

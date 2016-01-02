@@ -4,13 +4,13 @@ class StaticMethods
 {
     static void Main()
     {
-        double radius =5.9;
+        double radius =6.9;
         Console.WriteLine("Circle radius: {0}", radius);
         double area = Math.PI * Math.Pow(radius, 2);
         Console.WriteLine("Circle area: {0}", area);
         Console.WriteLine();
 
-        double precise = 8.7654321;
+        double precise = 6786456754.7868765;
         double round3 = Math.Round(precise, 3);
         double round1 = Math.Round(precise, 1);
         Console.WriteLine("Precise: {0}", precise);

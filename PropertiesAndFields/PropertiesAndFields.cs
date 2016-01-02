@@ -14,8 +14,7 @@ class PropertiesAndFields
 
         Console.WriteLine("Day of year: {0}", christmas.DayOfYear);
 
-        Console.WriteLine(
-            "Is {0} leap year: {1}", year, DateTime.IsLeapYear(year));
+        Console.WriteLine("Is {0} leap year: {1}", year, DateTime.IsLeapYear(year));
 
         DateTime asd = new DateTime(day: 15, month: 1, year: 2015);
         Console.WriteLine(asd);
