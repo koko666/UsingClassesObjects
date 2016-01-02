@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Channels;
-using System.Text;
-using System.Threading.Tasks;
 using Work;
-
 
 class WorkMain
 {
     static void Main()
     {
+        const int newYear=2016;
         Student studNew = new Student();
         studNew.FirstName = "Pesho";
         studNew.LastName = "Ivanov";
@@ -34,7 +29,10 @@ class WorkMain
 
         Console.WriteLine(lastCar.marka+" "+ lastCar.model+" "+lastCar.power);
 
-        int year = 2015;// int.Parse(Console.ReadLine());
+        DateTime now=DateTime.Today;
+        Console.WriteLine(now.Hour);
+
+        int year = int.Parse(Console.ReadLine());
         bool Leap = DateTime.IsLeapYear(year);
         if (Leap)
         {
@@ -51,5 +49,6 @@ class Student
 {
     public string FirstName;
     public string LastName;
+    public int Age;
 }
 
