@@ -4,7 +4,7 @@ class StaticMethods
 {
     static void Main()
     {
-        double radius = 2.9;
+        double radius =5.9;
         Console.WriteLine("Circle radius: {0}", radius);
         double area = Math.PI * Math.Pow(radius, 2);
         Console.WriteLine("Circle area: {0}", area);
