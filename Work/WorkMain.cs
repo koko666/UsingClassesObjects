@@ -12,16 +12,16 @@ class WorkMain
 
         now.AddYears(5);
         Car myCar=new Car();
-        myCar.marka = "Mercedes";
+        myCar.make = "Mercedes";
         myCar.model = "G 63 AMG";
         myCar.power = 544;
-        Console.WriteLine(myCar.marka+" " + myCar.model + " "+ myCar.power+"Hp");
+        Console.WriteLine(myCar.make+" " + myCar.model + " "+ myCar.power+"Hp");
 
         Car lastCar=new Car();
-        lastCar.marka = "BMW";
+        lastCar.make = "BMW";
         lastCar.model = "X6 M";
         lastCar.power = 567;
-        Console.WriteLine(lastCar.marka+" "+ lastCar.model+" "+lastCar.power+"Hp");
+        Console.WriteLine(lastCar.make+" "+ lastCar.model+" "+lastCar.power+"Hp");
 
         int year = 2016;// int.Parse(Console.ReadLine());
         bool Leap = DateTime.IsLeapYear(year);

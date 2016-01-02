@@ -2,7 +2,7 @@
 {
     class Car
     {
-        public string marka;
+        public string make;
         public string model;
         public int power;
     }
