@@ -5,35 +5,27 @@ class WorkMain
 {
     static void Main()
     {
-        const int newYear=2016;
-        Student studNew = new Student();
-        studNew.FirstName = "Pesho";
-        studNew.LastName = "Ivanov";
+        string txt = "       luck  ";
+        DateTime now=DateTime.Now;
+        Console.WriteLine(txt.Trim().ToUpper());
 
-        //Car myCar=new Car();
 
-        Console.WriteLine(studNew.FirstName+" "+ studNew.LastName  );
-
+        now.AddYears(5);
         Car myCar=new Car();
         myCar.marka = "Mercedes";
         myCar.model = "G 63 AMG";
         myCar.power = 544;
-
         Console.WriteLine(myCar.marka+" " + myCar.model + " "+ myCar.power+"Hp");
 
         Car lastCar=new Car();
-
         lastCar.marka = "BMW";
-        lastCar.model = "X6";
-        lastCar.power = 500;
+        lastCar.model = "X6 M";
+        lastCar.power = 567;
+        Console.WriteLine(lastCar.marka+" "+ lastCar.model+" "+lastCar.power+"Hp");
 
-        Console.WriteLine(lastCar.marka+" "+ lastCar.model+" "+lastCar.power);
-
-        DateTime now=DateTime.Today;
-        Console.WriteLine(now.Hour);
-
-        int year = int.Parse(Console.ReadLine());
+        int year = 2016;// int.Parse(Console.ReadLine());
         bool Leap = DateTime.IsLeapYear(year);
+
         if (Leap)
         {
             Console.WriteLine("The year {0} is leap", year );
@@ -44,11 +36,3 @@ class WorkMain
         }
     }
 }
-
-class Student
-{
-    public string FirstName;
-    public string LastName;
-    public int Age;
-}
-
