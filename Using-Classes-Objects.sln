@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. ValueTypes-and-Reference
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Work", "Work\Work.csproj", "{06D59B06-047A-4D34-8587-CDC18DA5AC14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorPasswords", "GeneratorPasswords\GeneratorPasswords.csproj", "{56BC4CE1-3014-465B-BC73-0CE176D09991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,16 @@ Global
 		{06D59B06-047A-4D34-8587-CDC18DA5AC14}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{06D59B06-047A-4D34-8587-CDC18DA5AC14}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{06D59B06-047A-4D34-8587-CDC18DA5AC14}.Release|x86.ActiveCfg = Release|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{56BC4CE1-3014-465B-BC73-0CE176D09991}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
