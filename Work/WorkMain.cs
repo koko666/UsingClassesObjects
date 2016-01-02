@@ -19,12 +19,12 @@ class WorkMain
         Console.WriteLine(studNew.FirstName+" "+ studNew.LastName  );
 
         Car myCar=new Car();
-        myCar.marka = "Mersedes";
-        myCar.model = "AMG 63";
-        myCar.power = 650;
+        myCar.marka = "Mercedes";
+        myCar.model = "G 63 AMG";
+        myCar.power = 544;
 
 
-        Console.WriteLine(myCar.marka+" " + myCar.model + " "+ myCar.power+"h");
+        Console.WriteLine(myCar.marka+" " + myCar.model + " "+ myCar.power+"Hp");
 
 
 
