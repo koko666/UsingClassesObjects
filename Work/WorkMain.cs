@@ -26,6 +26,15 @@ class WorkMain
 
         Console.WriteLine(myCar.marka+" " + myCar.model + " "+ myCar.power+"Hp");
 
+        Car lastCar=new Car();
+
+        lastCar.marka = "BMW";
+        lastCar.model = "X6";
+        lastCar.power = 500;
+
+
+        Console.WriteLine(lastCar.marka+" "+ lastCar.model+" "+lastCar.power);
+
 
 
     }
