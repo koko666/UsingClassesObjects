@@ -1,20 +1,48 @@
 ﻿using System;
+using System.Collections.Generic;
 using Work;
+
+public enum MakeCars
+{
+    MERCEDES,
+    BMW,
+    AUDI,
+    SUBARU,
+    PORSCHE,
+    TOYOTA,
+    HONDA,
+    BENTLEY
+}
 
 class WorkMain
 {
     static void Main()
     {
+        MakeCars bmwCars = MakeCars.BMW;
+        MakeCars audiCars = MakeCars.AUDI;
+        MakeCars bentleyCars = MakeCars.BENTLEY;
+        MakeCars toyotaCars=MakeCars.TOYOTA;
+
+        Console.WriteLine(bentleyCars);
+        Console.WriteLine(bmwCars);
+        Console.WriteLine(audiCars);
+
         Random rnd=new Random();
-        int[] nums=new int[6];
+        int[] nums=new int[rnd.Next(1,100)];
 
         for (int i = 0; i < nums.Length; i++)
         {
-            nums[i] = rnd.Next(1, 10);
+            nums[i] = rnd.Next();
         }
 
         Console.Write(string.Join(",",nums));
         Console.WriteLine();
+        Console.WriteLine();
+
+        List<int> numList=new List<int>(nums);
+        numList.Sort();
+        Console.WriteLine(string.Join(";",numList));
+
 
         string txt = "       luck  ";
         DateTime now=DateTime.Now;
@@ -26,6 +54,10 @@ class WorkMain
         myCar.model = "G 63 AMG";
         myCar.power = 544;
         Console.WriteLine(myCar.make+" " + myCar.model + " "+ myCar.power+"Hp");
+
+        
+
+
 
         Car lastCar=new Car();
         lastCar.make = "BMW";
